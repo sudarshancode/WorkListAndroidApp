@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sky_blue"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/logoId"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/clipboard"
+        android:layout_centerInParent="true"
+        />
+    <ProgressBar
+        android:id="@+id/progressBarId"
+        android:layout_marginTop="80dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progressTint="#FFFFFF"
+        android:progressBackgroundTint="#797676"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logoId"
+
+        />
+    <Button
+        android:id="@+id/getStartedButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:textColor="@color/sky_blue"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        />
+    
+
+</RelativeLayout>

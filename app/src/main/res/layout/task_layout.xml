@@ -6,12 +6,13 @@
     android:layout_marginLeft="20dp"
     app:cardElevation="5dp"
     app:cardCornerRadius="8dp"
-    app:cardBackgroundColor="#36B5F2"
+    app:cardBackgroundColor="#fff"
     android:layout_marginHorizontal="16dp"
     android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
     >
     <RelativeLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
         >
@@ -19,9 +20,11 @@
             android:id="@+id/checkBoxId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/robo_slav"
             android:text="Hello I am Sudarshan"
             android:paddingStart="8dp"
-            android:textColor="#FFF7F7"
+            android:textColor="#1c1e21"
+            android:button="@drawable/check_box"
             android:textSize="23dp"
             />
     </RelativeLayout>
